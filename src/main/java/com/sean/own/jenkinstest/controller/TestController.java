@@ -15,6 +15,7 @@ public class TestController {
 
     @GetMapping("/testApi")
     public void testApi(){
+        System.out.println("1111111");
         System.out.println("提交变更测试是否触发变更构建");
         System.out.println("成功进入接口");
     }
